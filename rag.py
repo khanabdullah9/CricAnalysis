@@ -9,7 +9,7 @@ from html_reader import HTMLReader
 from etl_handler import ETLHandler
 
 class RAGInterface():
-    def __init__(self, player_gender, search_kwargs = 20):
+    def __init__(self, search_kwargs = 20):
         self.llm = create_agent(
                 model="gpt-4o",
                 system_prompt="You are a helpful assistant",
