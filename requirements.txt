@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+langchain
+langchain-community
+langchain-core
+langchain_openai
+python-dotenv
+streamlit
+beautifulsoup4
+chromadb
